@@ -6,7 +6,7 @@
     font-family: 'Lato', sans-serif;
 }
 body{
-    background-image: url(../img/banner.jpg);
+    background-image: url(./img/banner.jpg);
     background-position-x: center;
     background-position-y: top;
     background-attachment: fixed;

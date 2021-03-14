@@ -29,7 +29,7 @@ window.addEventListener('load', function () {
     burgerBtn.addEventListener('click', burgerFunc);
 
     function openHome() {
-        window.location.href = '../../main-page/index.html';
+        window.location.href = '../../index.html';
     }
 
     function openAbout() {

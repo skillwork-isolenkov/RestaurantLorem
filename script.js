@@ -30,36 +30,36 @@ window.addEventListener('load', function () {
     }
 
     function openAbout() {
-        window.location.href = '../components/about-us/index.html';
+        window.location.href = './components/about-us/index.html';
     }
 
     function openMenu() {
-        window.location.href = '../components/menu/index.html';
+        window.location.href = './components/menu/index.html';
     }
 
 
     function openTeam() {
-        window.location.href = '../components/team/index.html';
+        window.location.href = './components/team/index.html';
     }
 
     function openGallery() {
-        window.location.href = '../components/gallery/index.html';
+        window.location.href = './components/gallery/index.html';
     }
 
     function openBlog() {
-        window.location.href = '../components/blog/index.html';
+        window.location.href = './components/blog/index.html';
     }
 
     function openReservation() {
-        window.location.href = '../components/reservation/index.html';
+        window.location.href = './components/reservation/index.html';
     }
 
     function openContact() {
-        window.location.href = '../components/contact-us/index.html';
+        window.location.href = './components/contact-us/index.html';
     }
 
     function btnFunc() {
-        window.location.href = '../components/reservation/index.html';
+        window.location.href = './components/reservation/index.html';
     }
     function burgerFunc() {
         timesClicked++;

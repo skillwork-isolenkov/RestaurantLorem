@@ -28,7 +28,7 @@ window.addEventListener('load', function () {
 
 
     function openHome() {
-        window.location.href = '../../main-page/index.html';
+        window.location.href = '../../index.html';
     }
 
     function openAbout() {
