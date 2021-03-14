@@ -83,3 +83,14 @@
         margin-left: 15px;
     }
   }
+
+  /* Landscape */
+@media (orientation: landscape) {
+    main{
+        height: 75vh;
+    }
+
+    .email-bar input {
+        margin-top: 40px;
+    }
+}

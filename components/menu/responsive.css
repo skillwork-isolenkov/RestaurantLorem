@@ -77,3 +77,11 @@
         margin-bottom: 20px;
     }
   }
+
+  /* Landscape */
+@media (orientation: landscape) {
+    .first-row, .second-row{
+        display: flex;
+        flex-direction: row;
+    }
+}

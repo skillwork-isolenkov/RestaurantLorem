@@ -69,3 +69,10 @@
         font-size: 17px;
     }
   }
+
+  /* Landscape */
+@media (orientation: landscape) {
+    main{
+        height: auto;
+    }
+}

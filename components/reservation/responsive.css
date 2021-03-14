@@ -66,3 +66,18 @@
         margin-right: 0;
     }
   }
+
+  /* Landscape */
+@media (orientation: landscape) {
+    .name-email, .number-persons, .date-time{
+        display: flex;
+    }
+
+    .input-name, .input-number, .input-date{
+        margin-right: 20px;
+    }
+
+    main button{
+        margin-left: 90px;
+    }
+}

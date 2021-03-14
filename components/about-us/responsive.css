@@ -83,3 +83,21 @@
         margin-right: 10px;
     }
   }
+
+  /* Landscape */
+@media (orientation: landscape) {
+    main{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .about-us{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .todays-special{
+        justify-content: flex-start;
+        margin-left: 65px;
+    }
+}

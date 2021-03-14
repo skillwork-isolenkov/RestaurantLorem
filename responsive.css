@@ -1,3 +1,4 @@
+/* Portrait */
 @media only screen and (max-width: 900px) {
     /* Navbar */
     .navbar{
@@ -48,3 +49,10 @@
         font-size: 15px;
     }
   }
+
+/* Landscape */
+@media (orientation: landscape) {
+    main{
+        margin-top: 10vh;
+    }
+}
