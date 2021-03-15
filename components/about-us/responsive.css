@@ -85,7 +85,7 @@
   }
 
   /* Landscape */
-@media (orientation: landscape) {
+  @media only screen and (max-width: 900px) and (orientation: landscape) {
     main{
         display: flex;
         flex-flow: row wrap;

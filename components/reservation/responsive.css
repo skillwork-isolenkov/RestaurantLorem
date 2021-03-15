@@ -68,7 +68,7 @@
   }
 
   /* Landscape */
-@media (orientation: landscape) {
+  @media only screen and (max-width: 900px) and (orientation: landscape) {
     .name-email, .number-persons, .date-time{
         display: flex;
     }
