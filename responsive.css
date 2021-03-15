@@ -51,7 +51,12 @@
   }
 
 /* Landscape */
-@media (orientation: landscape) {
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+    body{
+        height: 130vh;
+        width: 100%;
+    }
+
     main{
         margin-top: 10vh;
     }
